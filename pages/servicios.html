@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios completos de desarrollo de software - ESI SOLUCIONES TECNOLOGICAS">
+    <title>Servicios - ESI SOLUCIONES TECNOLOGICAS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="../index.html">
+                        <img src="../images/Esi_logo.png" alt="ESI SOLUCIONES TECNOLOGICAS Logo" style="height: 40px; margin-right: 10px;">
+                        <span>ESI SOLUCIONES TECNOLOGICAS</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="servicios.html" class="nav-link active">Servicios</a></li>
+                    <li class="nav-item"><a href="sobre-nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="portafolio.html" class="nav-link">Portafolio</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 150px 0 80px; min-height: 60vh;">
+        <div class="container">
+            <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1 class="hero-title">Nuestros Servicios</h1>
+                <p class="hero-subtitle">
+                    Ofrecemos soluciones tecnológicas completas para impulsar tu negocio al siguiente nivel
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="services" style="padding: 80px 0;">
+        <div class="container">
+            <div class="services-grid">
+                <!-- Desarrollo Web -->
+                <div class="service-card" style="grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center;">
+                    <div class="service-icon" style="width: 120px; height: 120px; margin: 0 auto;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div>
+                        <h3 class="service-title" style="font-size: 2rem;">Desarrollo Web Completo</h3>
+                        <p class="service-description" style="font-size: 1.1rem; margin-bottom: 2rem;">
+                            Creamos sitios web modernos, responsivos y optimizados que convierten visitantes en clientes. 
+                            Desde landing pages hasta aplicaciones web complejas, utilizamos las últimas tecnologías 
+                            para garantizar el mejor rendimiento y experiencia de usuario.
+                        </p>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                            <div>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Frontend</h4>
+                                <ul class="service-features">
+                                    <li>HTML5, CSS3, JavaScript ES6+</li>
+                                    <li>React, Vue.js, Angular</li>
+                                    <li>Responsive Design</li>
+                                    <li>Progressive Web Apps (PWA)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Backend</h4>
+                                <ul class="service-features">
+                                    <li>Node.js, Python, PHP</li>
+                                    <li>Express, Django, Laravel</li>
+                                    <li>APIs RESTful y GraphQL</li>
+                                    <li>Bases de datos SQL/NoSQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aplicaciones Móviles -->
+                <div class="service-card" style="grid-column: 1 / -1; display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: center;">
+                    <div>
+                        <h3 class="service-title" style="font-size: 2rem;">Aplicaciones Móviles</h3>
+                        <p class="service-description" style="font-size: 1.1rem; margin-bottom: 2rem;">
+                            Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android. 
+                            Nuestras apps combinan diseño intuitivo con funcionalidades avanzadas para 
+                            ofrecer experiencias móviles excepcionales.
+                        </p>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                            <div>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Tecnologías</h4>
+                                <ul class="service-features">
+                                    <li>React Native</li>
+                                    <li>Flutter</li>
+                                    <li>Swift (iOS)</li>
+                                    <li>Kotlin (Android)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Características</h4>
+                                <ul class="service-features">
+                                    <li>UI/UX optimizado</li>
+                                    <li>Push notifications</li>
+                                    <li>Integración con APIs</li>
+                                    <li>App Store deployment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-icon" style="width: 120px; height: 120px; margin: 0 auto;">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+
+                <!-- E-commerce -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="service-title">E-commerce Solutions</h3>
+                    <p class="service-description">
+                        Tiendas online completas con gestión de productos, pagos seguros, 
+                        análisis de ventas y herramientas de marketing digital.
+                    </p>
+                    <ul class="service-features">
+                        <li>WooCommerce, Shopify, Custom</li>
+                        <li>Pasarelas de pago seguras</li>
+                        <li>Gestión de inventario</li>
+                        <li>SEO y marketing digital</li>
+                    </ul>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-description">
+                        Diseñamos experiencias digitales que conectan con tus usuarios. 
+                        Investigación, prototipado y testing para interfaces excepcionales.
+                    </p>
+                    <ul class="service-features">
+                        <li>User Research & Testing</li>
+                        <li>Wireframes & Prototipos</li>
+                        <li>Design Systems</li>
+                        <li>Figma, Adobe Creative Suite</li>
+                    </ul>
+                </div>
+
+                <!-- DevOps -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="service-title">DevOps & Cloud</h3>
+                    <p class="service-description">
+                        Automatización de despliegues, infraestructura escalable y 
+                        monitoreo continuo para aplicaciones robustas.
+                    </p>
+                    <ul class="service-features">
+                        <li>AWS, Azure, Google Cloud</li>
+                        <li>Docker & Kubernetes</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Monitoring & Alertas</li>
+                    </ul>
+                </div>
+
+                <!-- Consultoría -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="service-title">Consultoría Tecnológica</h3>
+                    <p class="service-description">
+                        Asesoramiento estratégico para transformación digital, 
+                        arquitectura de software y optimización de procesos.
+                    </p>
+                    <ul class="service-features">
+                        <li>Auditoría técnica</li>
+                        <li>Arquitectura de software</li>
+                        <li>Migración de sistemas</li>
+                        <li>Estrategia digital</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section style="padding: 80px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Proceso</h2>
+                <p class="section-subtitle">Metodología probada para entregar resultados excepcionales</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 2rem; font-weight: bold;">1</div>
+                    <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Análisis</h3>
+                    <p style="color: var(--text-secondary);">Entendemos tus necesidades y objetivos para definir la estrategia perfecta.</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 2rem; font-weight: bold;">2</div>
+                    <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Diseño</h3>
+                    <p style="color: var(--text-secondary);">Creamos prototipos y diseños que reflejan tu visión y mejoran la experiencia del usuario.</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 2rem; font-weight: bold;">3</div>
+                    <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Desarrollo</h3>
+                    <p style="color: var(--text-secondary);">Construimos tu solución con las mejores prácticas y tecnologías más actuales.</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-size: 2rem; font-weight: bold;">4</div>
+                    <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Entrega</h3>
+                    <p style="color: var(--text-secondary);">Desplegamos tu proyecto y te capacitamos para su uso óptimo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 80px 0; background: var(--bg-primary);">
+        <div class="container">
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--text-primary);">¿Listo para comenzar tu proyecto?</h2>
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                    Conversemos sobre cómo podemos ayudarte a transformar tu idea en realidad
+                </p>
+                <a href="contacto.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem;">Solicitar Consulta Gratuita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../images/Esi_logo.png" alt="ESI SOLUCIONES TECNOLOGICAS Logo" style="height: 30px; margin-right: 10px;">
+                        <span>ESI SOLUCIONES TECNOLOGICAS</span>
+                    </div>
+                    <p class="footer-description">
+                        Transformamos ideas en soluciones tecnológicas innovadoras.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Desarrollo Web</a></li>
+                        <li><a href="#services">Apps Móviles</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Consultoría</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Empresa</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contacto</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> info@esiweb.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ESI SOLUCIONES TECNOLOGICAS. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

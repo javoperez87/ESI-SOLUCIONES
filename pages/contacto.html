@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con ESI SOLUCIONES TECNOLOGICAS - Tu empresa de desarrollo de software">
+    <title>Contacto - ESI SOLUCIONES TECNOLOGICAS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="../index.html">
+                        <img src="../images/Esi_logo.png" alt="ESI SOLUCIONES TECNOLOGICAS Logo" style="height: 40px; margin-right: 10px;">
+                        <span>ESI SOLUCIONES TECNOLOGICAS</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="servicios.html" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="sobre-nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="portafolio.html" class="nav-link">Portafolio</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 150px 0 80px; min-height: 60vh;">
+        <div class="container">
+            <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1 class="hero-title">Contactanos</h1>
+                <p class="hero-subtitle">
+                    ¿Tienes un proyecto en mente? Estamos aquí para ayudarte a hacerlo realidad
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" style="padding: 80px 0;">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 style="font-size: 2rem; margin-bottom: 2rem; color: var(--text-primary);">Información de Contacto</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Ubicación</h3>
+                            <p>Calle Principal #123<br>Ciudad, País 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Teléfono</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>info@esisoluciones.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Horario de Atención</h3>
+                            <p>Lunes - Viernes: 9:00 AM - 6:00 PM<br>Sábados: 10:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+
+                    <!-- Redes Sociales -->
+                    <div style="margin-top: 3rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Síguenos</h3>
+                        <div class="social-links" style="justify-content: flex-start;">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <h2 style="margin-bottom: 2rem; color: var(--text-primary);">Envíanos un Mensaje</h2>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="form-group">
+                            <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Nombre *</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="form-group">
+                            <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="company" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Empresa</label>
+                            <input type="text" id="company" name="company" placeholder="Nombre de tu empresa">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Servicio de Interés</label>
+                        <select id="service" name="service" style="width: 100%; padding: var(--spacing-md); border: 2px solid rgba(226, 232, 240, 0.8); border-radius: var(--radius-lg); font-size: var(--font-size-base); font-family: var(--font-family); background: var(--bg-primary);">
+                            <option value="">Selecciona un servicio</option>
+                            <option value="desarrollo-web">Desarrollo Web</option>
+                            <option value="app-movil">Aplicación Móvil</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="uiux">UI/UX Design</option>
+                            <option value="devops">DevOps & Cloud</option>
+                            <option value="consultoria">Consultoría Tecnológica</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Presupuesto Estimado</label>
+                        <select id="budget" name="budget" style="width: 100%; padding: var(--spacing-md); border: 2px solid rgba(226, 232, 240, 0.8); border-radius: var(--radius-lg); font-size: var(--font-size-base); font-family: var(--font-family); background: var(--bg-primary);">
+                            <option value="">Selecciona un rango</option>
+                            <option value="5000-10000">$5,000 - $10,000</option>
+                            <option value="10000-25000">$10,000 - $25,000</option>
+                            <option value="25000-50000">$25,000 - $50,000</option>
+                            <option value="50000+">$50,000+</option>
+                            <option value="no-definido">No definido</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="timeline" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Timeline del Proyecto</label>
+                        <select id="timeline" name="timeline" style="width: 100%; padding: var(--spacing-md); border: 2px solid rgba(226, 232, 240, 0.8); border-radius: var(--radius-lg); font-size: var(--font-size-base); font-family: var(--font-family); background: var(--bg-primary);">
+                            <option value="">¿Cuándo necesitas el proyecto?</option>
+                            <option value="inmediato">Lo antes posible</option>
+                            <option value="1-mes">Dentro de 1 mes</option>
+                            <option value="1-3-meses">1-3 meses</option>
+                            <option value="3-6-meses">3-6 meses</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Asunto *</label>
+                        <input type="text" id="subject" name="subject" placeholder="Resumen de tu proyecto" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">Descripción del Proyecto *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Cuéntanos más detalles sobre tu proyecto, objetivos, funcionalidades deseadas, etc." required></textarea>
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: flex; align-items: center; cursor: pointer;">
+                            <input type="checkbox" id="newsletter" name="newsletter" style="margin-right: 0.5rem;">
+                            <span style="color: var(--text-secondary); font-size: 0.9rem;">
+                                Quiero recibir actualizaciones y consejos sobre desarrollo de software
+                            </span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">
+                        <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i>
+                        Enviar Mensaje
+                    </button>
+                    
+                    <p style="font-size: 0.85rem; color: var(--text-secondary); text-align: center; margin-top: 1rem;">
+                        * Campos obligatorios. Responderemos en un plazo máximo de 24 horas.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 80px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Respuestas a las consultas más comunes</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item" style="background: var(--bg-primary); margin-bottom: 1rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <div class="faq-question" style="padding: 1.5rem; cursor: pointer; font-weight: 600; color: var(--text-primary); border-bottom: 1px solid var(--bg-secondary);">
+                        <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
+                        ¿Cuánto tiempo toma desarrollar un sitio web?
+                    </div>
+                    <div class="faq-answer" style="padding: 1.5rem; color: var(--text-secondary); display: none;">
+                        El tiempo de desarrollo varía según la complejidad del proyecto. Un sitio web básico puede tomar 2-4 semanas, mientras que aplicaciones web complejas pueden requerir 2-6 meses. Te proporcionaremos un cronograma detallado después de evaluar tus requerimientos.
+                    </div>
+                </div>
+                
+                <div class="faq-item" style="background: var(--bg-primary); margin-bottom: 1rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <div class="faq-question" style="padding: 1.5rem; cursor: pointer; font-weight: 600; color: var(--text-primary); border-bottom: 1px solid var(--bg-secondary);">
+                        <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
+                        ¿Ofrecen soporte post-lanzamiento?
+                    </div>
+                    <div class="faq-answer" style="padding: 1.5rem; color: var(--text-secondary); display: none;">
+                        Sí, ofrecemos diferentes planes de soporte que incluyen mantenimiento, actualizaciones de seguridad, backups, y soporte técnico. El primer mes de soporte está incluido en todos nuestros proyectos.
+                    </div>
+                </div>
+                
+                <div class="faq-item" style="background: var(--bg-primary); margin-bottom: 1rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <div class="faq-question" style="padding: 1.5rem; cursor: pointer; font-weight: 600; color: var(--text-primary); border-bottom: 1px solid var(--bg-secondary);">
+                        <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
+                        ¿Trabajan con empresas fuera del país?
+                    </div>
+                    <div class="faq-answer" style="padding: 1.5rem; color: var(--text-secondary); display: none;">
+                        Absolutamente. Trabajamos con clientes de todo el mundo. Utilizamos herramientas de comunicación modernas y metodologías ágiles para asegurar una colaboración efectiva sin importar la ubicación geográfica.
+                    </div>
+                </div>
+                
+                <div class="faq-item" style="background: var(--bg-primary); margin-bottom: 1rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <div class="faq-question" style="padding: 1.5rem; cursor: pointer; font-weight: 600; color: var(--text-primary); border-bottom: 1px solid var(--bg-secondary);">
+                        <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
+                        ¿Qué incluye la consulta gratuita?
+                    </div>
+                    <div class="faq-answer" style="padding: 1.5rem; color: var(--text-secondary); display: none;">
+                        La consulta incluye análisis de tus necesidades, recomendaciones tecnológicas, estimación de tiempo y presupuesto, y una estrategia inicial para tu proyecto. No hay compromiso y es completamente gratuita.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../images/Esi_logo.png" alt="ESI SOLUCIONES TECNOLOGICAS Logo" style="height: 30px; margin-right: 10px;">
+                        <span>ESI SOLUCIONES TECNOLOGICAS</span>
+                    </div>
+                    <p class="footer-description">
+                        Transformamos ideas en soluciones tecnológicas innovadoras.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="servicios.html">Desarrollo Web</a></li>
+                        <li><a href="servicios.html">Apps Móviles</a></li>
+                        <li><a href="servicios.html">UI/UX Design</a></li>
+                        <li><a href="servicios.html">Consultoría</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Empresa</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contacto</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> info@esisoluciones.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ESI SOLUCIONES TECNOLOGICAS. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        // FAQ functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    if (answer.style.display === 'none' || answer.style.display === '') {
+                        answer.style.display = 'block';
+                        icon.style.transform = 'rotate(90deg)';
+                    } else {
+                        answer.style.display = 'none';
+                        icon.style.transform = 'rotate(0deg)';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
